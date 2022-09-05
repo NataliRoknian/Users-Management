@@ -36,3 +36,79 @@
     transform: rotate(360deg);
   }
 }
+
+input[type=button]
+{
+    color: black;
+    background-color:  rgb(238, 230, 148);
+    border-color: rgb(94, 168, 229);
+    border-style: solid;
+    border-width: 1px;
+}
+
+input[type=text]
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 2px;
+}
+    
+
+h1
+{
+    text-align: center;
+}
+
+::placeholder 
+{ 
+    color: black;
+}
+
+.add_new_todo_and_post
+{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  width: 380px;
+  padding: 10px;
+}
+
+.add_new_user
+{
+  border-style: solid; 
+  border-width: 1px;
+  border-color: black;
+  width: 400px;
+  padding: 10px;
+}
+
+.todo_and_post_frame
+{
+  border-style: solid;
+  border-width: 1px;
+  border-color: purple;
+  width: 375px;
+  padding: 10px;
+}
+
+.user_other_details
+{
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+  background-color: #DADDDD;
+  width: 370px;
+  padding: 10px;
+}
+
+.todos_and_posts_block
+{
+  border-style: solid; 
+  border-width: 1px;
+  border-color: black;
+  width: 400px;
+  padding: 10px;
+}
